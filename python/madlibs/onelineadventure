@@ -1,0 +1,15 @@
+print("Welcome to Mad Libs!")
+
+noun1 = input("Enter a noun: ")
+adjective1 = input("Enter an adjective: ")
+verb1 = input("Enter a verb: ")
+noun2 = input("Enter a noun: ")
+adjective2 = input("Enter an adjective: ")
+noun3 = input("Enter a noun: ")
+verb2 = input("Enter a verb: ")
+song = input("Enter a Song: ")
+
+print(f"we went to the land of {noun1} where we meet these people who are {adjective1} "
+      f"and they like to {verb1}. After meeting them we soon came across {noun2} we ran away "
+      f"and fell into a {adjective2} hole in the ground, where there was a {noun3}. "
+      f"After encountering it they {verb2} as fast as possible while {song} plays. The End.")
