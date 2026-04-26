@@ -1,5 +1,5 @@
 # Bartram Trail High School Programming Club 2025- 2026
-A collection of projects, lessons, and challenges developed for Programming Club at Bartram Trail High School, where I serve as Co-President.
+A collection of projects, lessons, and challenges developed for Programming Club at Bartram Trail High School, where I serve as President.
 About
 Programming Club is a 40+ member student organization focused on making coding accessible to beginners in STEM. These projects were designed to teach foundational programming concepts in engaging, hands-on ways.
 
