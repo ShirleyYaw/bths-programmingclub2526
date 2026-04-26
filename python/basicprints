@@ -1,0 +1,66 @@
+print("Hello world")
+# This is a print ⬆ Click run to see what happens.
+# How can you print your name? 
+# Make a copy of this code and try and print your name
+
+print("I love programming")
+
+print(False)
+print(0.5)
+
+print("Hello world")
+# This is a print ⬆ Click run to see what happens.
+# How can you print your name? 
+# Make a copy of this code and try and print your name
+
+print("I love programming")
+
+print(False)
+print(0.5)
+
+#If you print so much, it will get messy! 
+#This is why variables exist.
+#Variables help catergorize our code. Example below:
+
+name = "Shirley"
+my_age = 16
+
+#We can use these variables to print
+ print(name)
+ print(my_age)
+ 
+ 
+"""
+Variable Naming RULES:
+Start with a lower case letter, NO SPACES, 
+camelCase or under_score for multiple words, 
+include numbers.
+"""
+
+"""
+You can also print words combined with variables using f-strings.
+Write normal print statement with an f inside the first parentheses. Everything
+else goes inside double quotes. Surround all variables by curly braces. 
+"""
+
+name = "Shirley"
+age = 16
+print(f"My name is {name} and I am {age}")
+
+#Make sure you space everything out correctly!
+
+"""
+For input, type input() and this will prompt the user to type anything they want.
+The data type for this is typically a string
+You can store user input in a variable
+"""
+
+name = input ("What is your name:")
+
+input(1)
+#In this case, name is a variable.  You can use it in prints or loops
+
+# Using it in prints: USE A F - STRING
+print (f"Hello {name}.")
+
+num= input("What is your favorite number?")
