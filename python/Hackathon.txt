@@ -1,0 +1,46 @@
+Easy 1:
+------
+"""
+Difficulty: Easy
+Write a function that takes a list of numbers and returns the sum of 
+all even numbers in the list. 
+Input for your function: 
+"""
+nums = [3, 6, 2, 7, 8, 10, 5]
+#Make sure to make it show up in the console, change it to main file!
+
+Hard 1:
+------
+"""
+Difficulty: Hard
+ Write a recursive function that reverses a list and returns the 
+ reversed list.
+ """
+#Input for your function: 
+items = [1, 2, 3, 4]
+#Make sure to make it show up in the console, change it to main file!
+
+Medium 1:
+--------
+"""
+Write a function that takes in a string and returns the first capital letter in the string. 
+If there are no capital letters, return 'None'. You can check if a character is uppercase 
+using char.isupper().
+Input for your function: text = "python Is Awesome"
+"""
+#Make sure to make it show up in the console, change it to main file!
+
+Medium 2:
+--------
+"""
+Difficulty: Medium
+Given a 2D list, write a function that returns a new list containing the 
+sum of each row.
+"""
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+#Make sure to make it show up in the console, change it to main file!
+
