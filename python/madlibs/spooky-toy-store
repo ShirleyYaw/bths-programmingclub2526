@@ -1,0 +1,57 @@
+print("We are creating a Spooky Toy Store Story!") 
+
+print("I will ask you for some words, and then create a fun story!\n") 
+
+ 
+
+sillyword = input("Enter a spooky word!(example: Rambunctious): ") 
+
+adj1 = input("Enter an Spooky Adjective! (Example: strong): ") 
+
+noun1 = input("Enter a Spooky Noun! (Example: Boy): ") 
+
+nounplural1 = input("Enter a Spooky Plural Noun! (Example: Pencils): ") 
+
+nounplural2 = input("Enter a second Spooky Plural Noun! (Example: Bananas): ") 
+
+adj2 = input("Enter a second Spooky Adjective! (Example: yellow)") 
+
+nounplural3 = input("Enter a third Spooky Plural Noun! (Example: Papayas): ") 
+
+num1 = input("Enter a Spooky Number! (Example: six): ") 
+
+adj3 = input("Enter a third Spooky Adjective! (Example: Insane): ") 
+
+noun2 = input("Enter a second Spooky Noun! (Example: Santa Skeleton): ") 
+
+adverb = input("Enter a Spooky Adverb! (Example: Loudly)") 
+
+adj4 = input("Enter a fourth Spooky Adjective! (Example: Popular): ") 
+
+adj5 = input("Enter a fifth Spooky Adjective! (Example: Spectacular): ") 
+
+person = input("Enter a Spooky Name! (Example: Billy): ") 
+
+noun3 = input("Enter a third Spooky Noun! (Example: Chicken Stars): ") 
+
+ 
+
+print("Now, to put it all together:\n") 
+
+print("CLERK: Good Day. Welcome to the " + sillyword + " Toy Shop. What can I do for you?\n") 
+
+print("CUSTOMER: I would like to get a/an " + adj1 + " toy for my little " + noun1 + ".\n") 
+
+print("CLERK: Would you like some colored " + nounplural1 + "? They stick together so your child could make " + nounplural2 + " out of them.\n") 
+
+print("CUSTOMER: No, my son eats anything that is " + adj2 + ".\n") 
+
+print("CLERK: Here are some stuffed " + nounplural3 + ". They are very popular with " + num1 + "-year-olds.\n") 
+
+print("CUSTOMER: My son is a very " + adj3 + " child. Last Christmas he broke the " + noun2 + " we gave him.\n") 
+
+print("CLERK: It is important that toys can be used " + adverb + ". For instance, this combination walkie-talkie and rubber-ducky meets the " + adj4 + " and " + adj5 + " needs of children.\n") 
+
+print("CUSTOMER: That's very nice, but I'm sure little " + person + " would get bored with it after a few conversations in the tub. I think I'll get him a/an " + noun3 + ", as long as it is unbreakable.\n") 
+
+print("THE END\n")
