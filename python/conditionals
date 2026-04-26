@@ -1,0 +1,31 @@
+#example
+balance = int(input("What is your bank balance?: "))
+#above is a input statement if you remember how to do that
+"""
+int() around the input converts the data type
+delete that and see what happens 
+"""
+
+if balance >= 1000000: #always begin conditionals with most niche to least
+    print("You are a millionare!")
+elif balance >=100000:
+    print("You seem like you have a pretty solid salary... invest!")
+elif balance >= 10000:
+    print("Fresh off the boat?")
+else:
+    print("Lock in bro.")
+  
+#practice
+#assume the random number above is someone's phone battery
+import random
+battery= random.randint(1,100)
+print(battery, "%")
+
+"""
+make a conditional statement for people so that if they have a battery of 
+>= 90
+>= 50
+>= 20
+and else...
+You can tell them what they want at each battery percentage
+"""
