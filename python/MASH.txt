@@ -1,0 +1,18 @@
+import random
+name = input("Enter your name: ")
+house_types = ["Mansion", "Apartment", "Shelter", "House"]
+    
+    
+#copy this same code format for 3 different sections (e.g. city, cars, pets, etc.)
+jobs = []
+print("\nEnter 3 potential jobs:")
+ for i in range(3):
+    jobs.append(input(f"Job {i+1}: "))
+
+#set variables for each result and make the computer randomly select a choice.
+jobs = 
+
+
+# 3. Output Results
+print(f"\n{name}'s MASH Future")
+print(f"You will live in a {mash_result}!")
