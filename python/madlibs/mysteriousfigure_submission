@@ -1,0 +1,40 @@
+
+noun = input("Enter a noun: ") 
+
+place = input("Enter a place: ") 
+
+person = input("Enter a person: ") 
+
+verb = input("Enter a verb: ") 
+
+adjective = input("Enter an Adjective: ") 
+
+if 1 == 1: 
+
+    print(f"""\nYou wake up in a pool of blood. You don't know where you are or who you are.  
+
+    You rise and feel a(n) {adjective} pain in your shoulder and a dull ache in your head. 
+
+    Your vision blurs, and before you fall, you see a figure running toward you.  
+
+    The floor is cold. You hear the figure's voice... then everything goes dark. 
+
+    You feel comfort the second time your rouse you turn to your side as your body is filled  
+
+    with lethargy. Your eyes open slowly you feel the tempreature drop in the air. {person} is here. 
+
+    Your immidate thoughts are about {noun} you've always been terrified of {person} and {noun}. 
+
+    You don't know why though. They look at you with concern, you have to get away you get off what you assume is 
+
+    a bed you've slept on. Your legs give away though and you hit your head on a post next to the bed. 
+
+    A white light come for you this time but you feel a past memory come back. 
+
+    \n  
+
+    Its {person} again talking about {noun} you both are at {place}. You both are {verb} and laughing. 
+
+    Then its clear {person} and you used to be friends and something happened. You don't know what but all you can do now is 
+
+    \n drift.""")
