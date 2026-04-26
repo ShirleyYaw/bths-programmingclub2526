@@ -1,0 +1,48 @@
+import random
+
+def get_user_choice():
+    """Gets and validates the user's choice."""
+    choices = ["rock", "paper", "scissors", "lizard", "spock"]
+    while True:
+        user_input = input("Choose rock, paper, scissors, lizard, or spock: ").lower()
+        if user_input in choices:
+            return user_input
+        else:
+            print("Invalid choice. Please choose from rock, paper, scissors, lizard, or spock.")
+
+def get_computer_choice():
+    """Generates a random choice for the computer."""
+    choices = ["rock", "paper", "scissors", "lizard", "spock"]
+    return random.choice(choices)
+
+def determine_winner(user_choice, computer_choice):
+    """Determines the winner based on Rock Paper Scissors Spock rules."""
+    rules = {
+        "rock": ["scissors", "lizard"],
+        "paper": ["rock", "spock"],
+        "scissors": ["paper", "lizard"],
+        "lizard": ["spock", "paper"],
+        "spock": ["scissors", "rock"]
+    }
+
+    if user_choice == computer_choice:
+        return "It's a tie!"
+    elif computer_choice in rules[user_choice]:
+        return "You win!"
+    else:
+        return "Computer wins!"
+
+def play_game():
+    """Plays a single round of Rock Paper Scissors Spock."""
+    print("Welcome to Rock Paper Scissors Spock!")
+    user_choice = get_user_choice()
+    computer_choice = get_computer_choice()
+
+    print(f"\nYou chose: {user_choice.capitalize()}")
+    print(f"Computer chose: {computer_choice.capitalize()}")
+
+    result = determine_winner(user_choice, computer_choice)
+    print(result)
+
+if __name__ == "__main__":
+    play_game()
