@@ -1,0 +1,80 @@
+# The Legend of 67 - Mad Libs Adventure
+
+print("Welcome to The Legend of 67!\n")
+
+# Chapter 1
+name1 = input("Enter a name: ")
+adjective1 = input("Enter an adjective: ")
+place1 = input("Enter a place: ")
+object1 = input("Enter an object: ")
+verb1 = input("Enter a past tense verb (e.g. ran, jumped): ")
+animal1 = input("Enter an animal: ")
+food1 = input("Enter a food: ")
+adverb1 = input("Enter an adverb (e.g. quickly, loudly): ")
+exclamation1 = input("Enter an exclamation (e.g. Wow, Oh no): ")
+
+print(f"\nOnce upon a time, there was a hero named {name1} who discovered the mysterious number 67.")
+print(f"People said it was a {adjective1} number that could control the 67nrs but only in {place1}.")
+print(f"\nOne day {name1} found a glowing {object1} with the number 67 carved on it.")
+print(f"Curious, they {verb1} toward a {animal1} that seemed to guard it.")
+print(f"\nSuddenly, the ground shook, and a voice shouted, \"{exclamation1}!\"")
+print(f"The number 67 began to glow brighter than {food1} in the sunlight.")
+print(f"\nWithout thinking, {name1} {adverb1} touched the {object1}, and everything changed forever...")
+print("From that day on the world would never forget the power of 67.")
+
+print("\nYou shall continue...\n")
+
+# Chapter 2
+name2 = input("Enter a name: ")
+pronoun = input("Enter a pronoun (he/she/they): ")
+adjective2 = input("Enter an adjective: ")
+place2 = input("Enter a place: ")
+object2 = input("Enter an object: ")
+verb2 = input("Enter a past tense verb (e.g. ran, jumped): ")
+animal2 = input("Enter an animal: ")
+food2 = input("Enter a food: ")
+adverb2 = input("Enter an adverb (e.g. quickly, loudly): ")
+exclamation2 = input("Enter an exclamation (e.g. Wow, Oh no): ")
+
+print(f"\n{name2} continued {pronoun} mission to stop the 67 power from spreading to the rest of the world.")
+print(f"So {name2} {verb2} to {place2}, carrying the {object2} that still glowed faintly.")
+print(f"There, a {animal2} whispered, \"{exclamation2}! Beware the hunger of {food2}!\"")
+print(f"Confused but determined, {name2} {adverb2} pressed on, ready to face destiny.")
+
+print("\nThe journey grows darker\n")
+
+# Chapter 3
+villain = input("Enter a villain's name: ")
+weapon = input("Enter a weapon: ")
+emotion = input("Enter an emotion: ")
+sound = input("Enter a loud sound (e.g. boom, crash): ")
+weather = input("Enter a type of weather (e.g. storm, blizzard): ")
+
+print(f"\nAs the sky filled with {weather}, {name2} finally faced the evil {villain}.")
+print(f"With only a {weapon} in hand and {emotion} in their heart, {name2} prepared for battle.")
+print(f"Suddenly, there was a {sound}! The number 67 appeared in the air like a burning symbol.")
+print("It demanded a choice — destroy the power or become it.")
+
+print("\nThe final choice...\n")
+
+# Chapter 4
+decision = input("Enter a decision (destroy/embrace): ")
+color = input("Enter a color: ")
+shape = input("Enter a shape: ")
+feeling = input("Enter a feeling: ")
+
+print(f"\nWith trembling hands, {name2} decided to {decision} the number 67.")
+print(f"The world flashed {color}, and the {shape} mark on {name2}'s arm began to fade.")
+print(f"For a moment, peace filled the air — a feeling of pure {feeling}.")
+print(f"But something deep within the {shape} whispered that 67's power might return one day.")
+
+print("\nEpilogue\n")
+
+sidekick = input("Enter a sidekick's name: ")
+funny_object = input("Enter a funny object (e.g. rubber chicken, banana): ")
+silly_noise = input("Enter a silly noise (e.g. honk, meow): ")
+
+print(f"\nYears later, {sidekick} discovered an ancient {funny_object} engraved with the number 67.")
+print(f"\"{silly_noise}!\" it cried as {sidekick} dropped it.")
+print("The world trembled once again — because legends, it seems, never truly end.")
+print("\n--- THE END OF THE LEGEND OF 67 ---")
